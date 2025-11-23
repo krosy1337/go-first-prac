@@ -84,6 +84,6 @@ func main() {
       fmt.Printf("Network bandwidth usage high: %d Mbit/s available\n", freeMbit)
     }
 
-    time.Sleep(1 * time.Second)
+    time.Sleep(time.Second)
   }
 }
